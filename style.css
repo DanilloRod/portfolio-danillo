@@ -201,26 +201,26 @@
   }
 
   .curriculo-wrapper {
-   
-    justify-content: center;
+    width: 100%;
+    text-align: center;
     margin-top: 20px;
   }
   
   .curriculo-botao {
-    background-color: white;
-    padding: 10px 20px;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #3b3b8f;
+    color: white;
     border-radius: 10px;
-    font-weight: bold;
     text-decoration: none;
-    color: #000;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
   }
   
   .curriculo-botao:hover {
-    background-color: #f2f2f2;
-    transform: scale(1.03);
+    background-color: #5e4bcf;
   }
+  
   
 
   .projetos-github {
