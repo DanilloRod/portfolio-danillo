@@ -201,7 +201,7 @@
   }
 
   .curriculo-wrapper {
-    display: flex;
+   
     justify-content: center;
     margin-top: 20px;
   }
@@ -222,8 +222,6 @@
     transform: scale(1.03);
   }
   
-  
- 
 
   .projetos-github {
     margin-top: 40px;
