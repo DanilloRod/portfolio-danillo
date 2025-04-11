@@ -16,22 +16,5 @@ fetch('https://api.github.com/users/danillorod/repos')
   })
   .catch(error => console.error('Erro ao carregar repositórios:', error));
 
-  // ⚠️ Substitua pela sua própria chave da OpenWeatherMap
-const apiKey = "SUA_API_KEY";
-const cidade = "Rio de Janeiro";
-
-fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&units=metric&lang=pt_br&appid=${apiKey}`)
-  .then(response => response.json())
-  .then(data => {
-    document.getElementById("clima-descricao").textContent =
-      data.weather[0].description;
-    document.getElementById("clima-temp").textContent =
-      `🌡️ ${Math.round(data.main.temp)}°C`;
-  })
-  .catch(error => {
-    console.error("Erro ao carregar clima:", error);
-    document.getElementById("clima-descricao").textContent =
-      "Não foi possível carregar o clima.";
-  });
-
+  
 
